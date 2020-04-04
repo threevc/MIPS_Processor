@@ -1,0 +1,20 @@
+Required components -
+	
+	32 bit mux --------
+	32 bit adder --------
+	instruction mem (read only) --kinda sorta in the folder
+
+	reg bank rw 32 bit ----------
+	sign extender
+	control unit --
+	
+	32 bit adder --------
+	ALU with zero output -----
+	32 bit mux -----------
+	ALU control ----------
+	5 bit mux 2 inp
+
+	data memory rw  --kinda sorta in the folder
+	and gate
+
+	32 bit mux -------------

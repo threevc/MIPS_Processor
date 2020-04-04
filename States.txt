@@ -1,0 +1,15 @@
+States -
+1. init - initialise signals
+	  initialise image memory
+
+2. convstart - clear accumulator
+	       fetch address for 1st stage of convolution
+
+3. conv 1 - conv9 - add and fetch
+
+4. buffer - stage to allow last accumulation to occur
+
+5. convend - end of accumulation
+	     infor stored in storeMem
+
+6. printOut - store final result in result.txt
